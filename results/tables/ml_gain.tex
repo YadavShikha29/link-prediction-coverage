@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\caption{ml gain}
+\label{tab:ml_gain}
+\begin{tabular}{lrrrrrr}
+\hline
+dataset & neg\_type & best\_heuristic & heur\_auc & LogReg & RandForest & RF\_gain \\
+\hline
+ca-grqc & easy & RA+ & 0.979 & 0.959 & 0.945 & -0.034 \\
+ca-grqc & far & PA & 0.741 & 0.737 & 0.832 & 0.091 \\
+ca-grqc & hop2 & RA & 0.932 & 0.915 & 0.912 & -0.020 \\
+ca-hepth & easy & RA+ & 0.958 & 0.875 & 0.888 & -0.070 \\
+ca-hepth & far & PA & 0.795 & 0.792 & 0.866 & 0.071 \\
+ca-hepth & hop2 & AA & 0.854 & 0.798 & 0.820 & -0.033 \\
+email-eu-core & easy & RA+ & 0.956 & 0.952 & 0.939 & -0.017 \\
+email-eu-core & far & RA+ & 0.828 & 0.730 & 0.722 & -0.106 \\
+email-eu-core & hop2 & RA+ & 0.909 & 0.902 & 0.892 & -0.016 \\
+facebook & easy & RA+ & 0.996 & 0.995 & 0.994 & -0.002 \\
+facebook & far & RA+ & 0.985 & 0.666 & 0.979 & -0.006 \\
+facebook & hop2 & RA+ & 0.974 & 0.973 & 0.966 & -0.008 \\
+karate & easy & RA+ & 0.765 & 0.656 & 0.663 & -0.101 \\
+karate & hop2 & PA & 0.756 & 0.732 & 0.703 & -0.053 \\
+wiki-vote & easy & LP & 0.972 & 0.964 & 0.959 & -0.014 \\
+wiki-vote & far & RA+ & 0.960 & 0.919 & 0.932 & -0.028 \\
+wiki-vote & hop2 & LP & 0.861 & 0.867 & 0.877 & 0.016 \\
+\hline
+\end{tabular}
+\end{table}

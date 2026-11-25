@@ -1,0 +1,27 @@
+| dataset | neg_type | best_heuristic | heur_auc | LogReg | RandForest | RF_gain |
+|---|---|---|---|---|---|---|
+| karate | easy | RA+ | 0.7551 | 0.6629 | 0.7398 | -0.0152 |
+| karate | hop2 | PA | 0.7298 | 0.7577 | 0.7345 | 0.0047 |
+| lesmis | easy | RA+ | 0.9640 | 0.9473 | 0.9430 | -0.0210 |
+| lesmis | hop2 | RA+ | 0.9584 | 0.9479 | 0.9332 | -0.0252 |
+| syn-ba-dense | easy | PA | 0.7260 | 0.6457 | 0.6115 | -0.1146 |
+| syn-ba-dense | far | PA | 0.6421 | 0.6420 | 0.5884 | -0.0537 |
+| syn-ba-dense | hop2 | PA | 0.7575 | 0.7506 | 0.7301 | -0.0275 |
+| syn-ba-sparse | easy | PA | 0.6904 | 0.6612 | 0.6794 | -0.0110 |
+| syn-ba-sparse | far | PA | 0.6734 | 0.6734 | 0.6904 | 0.0170 |
+| syn-ba-sparse | hop2 | PA | 0.8592 | 0.8472 | 0.8429 | -0.0163 |
+| syn-er-dense | easy | RA | 0.4988 | 0.5013 | 0.5003 | 0.0015 |
+| syn-er-dense | far | PA | 0.5011 | 0.5004 | 0.5016 | 0.0005 |
+| syn-er-dense | hop2 | PA | 0.5016 | 0.4975 | 0.4964 | -0.0052 |
+| syn-er-sparse | easy | PA | 0.5273 | 0.5284 | 0.5109 | -0.0165 |
+| syn-er-sparse | far | PA | 0.5225 | 0.5226 | 0.5141 | -0.0084 |
+| syn-er-sparse | hop2 | Jaccard | 0.5932 | 0.4515 | 0.4288 | -0.1643 |
+| syn-plc | easy | RA+ | 0.8445 | 0.6499 | 0.6636 | -0.1809 |
+| syn-plc | far | PA | 0.6488 | 0.6476 | 0.6545 | 0.0057 |
+| syn-plc | hop2 | AA | 0.8143 | 0.8052 | 0.7983 | -0.0159 |
+| syn-ws-dense | easy | LP | 0.9482 | 0.9536 | 0.9493 | 0.0011 |
+| syn-ws-dense | far | AA | 0.5000 | 0.5561 | 0.5153 | 0.0153 |
+| syn-ws-dense | hop2 | Jaccard | 0.9807 | 0.9811 | 0.9721 | -0.0086 |
+| syn-ws-sparse | easy | LP | 0.9465 | 0.9240 | 0.9116 | -0.0349 |
+| syn-ws-sparse | far | RA+ | 0.7224 | 0.7819 | 0.7985 | 0.0761 |
+| syn-ws-sparse | hop2 | Jaccard | 0.8422 | 0.8741 | 0.8635 | 0.0212 |
